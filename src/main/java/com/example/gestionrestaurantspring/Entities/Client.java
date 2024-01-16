@@ -1,16 +1,14 @@
 package com.example.gestionrestaurantspring.Entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
 @Entity
 @Getter
 @Setter
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class Client {
@@ -31,5 +29,7 @@ public class Client {
 
     @OneToMany(mappedBy = "client")
     private List<Commande> commandeList;
+    @OneToMany(mappedBy = "client")
+    private List<Reservation> reservationList ;
 
 }

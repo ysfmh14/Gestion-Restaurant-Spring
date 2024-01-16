@@ -1,0 +1,12 @@
+com\example\gestionrestaurantspring\Mappers\FactureMapperImpl.class
+com\example\gestionrestaurantspring\Mappers\TableMapperImpl.class
+com\example\gestionrestaurantspring\Mappers\MenuMapper.class
+com\example\gestionrestaurantspring\Mappers\CommandeMapper.class
+com\example\gestionrestaurantspring\Mappers\TableMapper.class
+com\example\gestionrestaurantspring\Mappers\ReservationMapperImpl.class
+com\example\gestionrestaurantspring\Mappers\FactureMapper.class
+com\example\gestionrestaurantspring\Mappers\CommandeMapperImpl.class
+com\example\gestionrestaurantspring\Mappers\ReservationMapper.class
+com\example\gestionrestaurantspring\Mappers\DishMapperImpl.class
+com\example\gestionrestaurantspring\Mappers\DishMapper.class
+com\example\gestionrestaurantspring\Mappers\MenuMapperImpl.class

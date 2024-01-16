@@ -1,9 +1,13 @@
 package com.example.gestionrestaurantspring.Entities;
 import jakarta.persistence.*;
 import lombok.*;
+
+import java.util.List;
+
 @Entity(name = "table_restau")
 @Getter
 @Setter
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class Table {
@@ -18,6 +22,9 @@ public class Table {
 
     @Column(name = "libre")
     private boolean libre;
+
+    @OneToMany(mappedBy = "table")
+    private List<Reservation> reservationList ;
 
 
 }

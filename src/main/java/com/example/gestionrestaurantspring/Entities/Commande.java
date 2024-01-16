@@ -9,6 +9,7 @@ import java.util.List;
 @Entity
 @Setter
 @Getter
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class Commande {
